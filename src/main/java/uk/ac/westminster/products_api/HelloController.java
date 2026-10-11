@@ -7,7 +7,7 @@ import java.time.LocalDate;
 
 /**
  * Ttorial 1 controller.
- *   GET /hello    -> a simple greeting
+
  *   GET /goodbye  -> Activity 3: goodbye message
  *   GET /status   -> Stretch task: status message including today's date
  */
