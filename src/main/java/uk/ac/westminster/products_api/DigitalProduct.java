@@ -1,15 +1,16 @@
 package uk.ac.westminster.products_api;
 //TUT 04
 
-public class DigitalProduct extends Product {
+public class DigitalProduct extends Product {//extends is the inheritance
     private String downloadUrl;
     private double filesizeMB;
 
-    public DigitalProduct(){
+    public DigitalProduct(){//No argument constructor
 
     }
 
-    public DigitalProduct(Long id,String name,double price,String downloadUrl,double filesizeMB){
+    //parametarized constructor
+        public DigitalProduct(Long id,String name,double price,String downloadUrl,double filesizeMB){
         super(id,name,price);
 
         this.downloadUrl=downloadUrl;
@@ -22,5 +23,13 @@ public class DigitalProduct extends Product {
 
     public double getFilesizeMB() {
         return filesizeMB;
+    }
+
+    public void setDownloadUrl(String downloadUrl) {
+        this.downloadUrl = downloadUrl;
+    }
+
+    public void setFilesizeMB(double filesizeMB) {
+        this.filesizeMB = filesizeMB;
     }
 }

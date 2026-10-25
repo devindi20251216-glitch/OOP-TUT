@@ -10,7 +10,7 @@ import java.util.List;
 public class ProductController {
 
     @Autowired
-    private ProductService productService; //Connecting controller class and service clas
+    private ProductService productService; //Connecting controller class and service class
 
     @GetMapping("/products")
     public List<Product> getAllProducts() {

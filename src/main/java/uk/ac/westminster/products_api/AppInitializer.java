@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class ProductsApiApplication {
+public class AppInitializer {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProductsApiApplication.class, args);
+		SpringApplication.run(AppInitializer.class, args);
 	}
 
 }
